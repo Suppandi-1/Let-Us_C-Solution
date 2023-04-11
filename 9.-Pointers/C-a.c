@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<math.h>
+#include<math.h> //without pointer solution
 int sum_of(int, int , int ,int,int);
 float avg(int, int , int ,int,int);
 float st_dev(int, int , int ,int,int);

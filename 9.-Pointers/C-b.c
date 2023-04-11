@@ -1,17 +1,18 @@
 #include<stdio.h>
 
-int recive_marks(){
+void recive_marks(int *p){
     int a,b,c;
     scanf("%d %d %d",&a,&b,&c);
-    int avg=(a+b+c)/3;
-    int per=avg; //out of 100 marks avg are percentage
-    return avg ;
+    
+    *p= (a+b+c)/3;
+    
 }
     
 int main()
 {
-    int res=recive_marks();
-    printf("the precentage is %d\n",res);
+    int res, per;
+    recive_marks(&per);
+    printf("the precentage is %d\n",per);
     
     return 0;
 }
