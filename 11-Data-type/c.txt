@@ -1,1 +1,19 @@
 All theory based question
+PART c
+a. true because life local to block so deleted and stored each time 
+b. false if decleration is done before some function then also valid for that function
+c. false life local to block
+d. false , if cpu register is not avilable then it will be stored in mem , similar to auto
+e. depends
+ false ,if 16-bit register cpu has then it cant store float size in it thus adjust it to auto
+ else depend upon task in cpu registed consumed in 
+f. false , no error shown just shifted to auto class
+g. false , local varible has preference
+h. flase , garbage
+i. false , life till programe ends
+j. false , not nesessary 
+k. see C-k.c file in this directory
+l. true , it can be given
+m. true , but depends ex static global exist
+
+
