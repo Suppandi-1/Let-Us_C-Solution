@@ -6,7 +6,7 @@ int main()
     ch = getch();//wont show your typed letter just after type
     printf("\nthe value enterd is %c\n",ch);
     ch = getche();//will echo as well
-    printf("\nthe value enterd is %c\n",ch);
+    printf("\nthe value enterd is %d\n",ch);
     
     return 0;
 }
