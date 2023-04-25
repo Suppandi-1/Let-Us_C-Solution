@@ -19,10 +19,6 @@ int main(){
         }
         else if(t==0){
             printf(" \t\t\t  *SOLUTION by SUPPANDI*\n");
-            printf("\t\t\t  CONGRATS NIGGA--><--\n\n");
-        }
-        else if(t==3){
-            printf(" \t\t\t  *SOLUTION by SUPPANDI*\n");
             printf("\t\t  PLEASE MAINTAIN CURSOR INSIDE--><--\n\n");
         }   
         Bord();

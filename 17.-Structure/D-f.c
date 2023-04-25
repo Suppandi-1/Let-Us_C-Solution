@@ -13,7 +13,8 @@
 
 int main()
 {
-    int num=0,n=0,m=0;
+    int num=0;
+    int n=0,m=0;
     struct book b[num];
     int acess,garbi,garbj;
     char menu,garb,search[20];
@@ -37,17 +38,18 @@ int main()
         switch(menu)
         {
             case('1'):
-            {
+            {   
+                system("clear");
                 num++;n=num-1;
                 (b+n)->accesion_number = num;
-                printf("Enter the title of book: ");gets(&b->title_of_book);
+                printf("Enter the title of book: ");scanf("%srr",&b->title_of_book);
                 printf("Enter the Author name of book: ");gets(&b->author_name);
                 printf("Enter the price of book: ");scanf("%f",&b->price);
-                b[n].status = 1;
+                // b[n].status = num;
 
-                printf("Enter any key to submit\n");
+                // printf("Enter any key to submit\n");fflush(stdin);scanf("\n");
                 garb = getch();
-                printf("Book added\n");
+                printf("Book added\nAcession number assigned : %d",b[n].status);
 
                 printf("\n");
                 printf("Enter any key to continue \n");
