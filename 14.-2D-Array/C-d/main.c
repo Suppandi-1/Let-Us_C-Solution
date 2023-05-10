@@ -8,7 +8,7 @@ int main(){
     int count = 0;
     
     while(t!=0){
-        system("clear");
+        system("cls");
         Checkstaus(&t);
         if(t==2){
             printf(" \t\t\t  *SOLUTION by SUPPANDI*\n\n\n");
