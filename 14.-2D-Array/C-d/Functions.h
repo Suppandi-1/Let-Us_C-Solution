@@ -1,6 +1,12 @@
-//#include"Global.h"
+
 #include<stdio.h>
-#include<conio.h>
+
+#define OS win
+#ifndef OS
+    #include"SUPPANDI_H"
+#endif
+    #include<conio.h>
+
 //i have modified my library by adding suppandi.h 
 //in windows use conio.h instead 
 //for linux user comment the above #include<suppandi.h>
